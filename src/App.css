@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body{
+  top:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  color:crimson;
+  background-color: black;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding:20px;
+}
+.nav h1{
+  margin:0;
+}
+.list{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+row-gap: 50px;
+padding:30px;
+  
+}
+.card{
+  width:300px;
+  height:500px;
+  padding:40px;
+  cursor: pointer;
+}
+.card:hover{
+  border:solid rgba(220, 20, 60, 0.733) 5px;
+  border-radius: 5px;
+  background-color: rgba(220, 20, 60, 0.67);
+}
+.card img{
+
+width:100%;
+height:400px;
+}
+.moviemodal{
+  background-color: rgba(255, 0, 0, 0.678);
+  position: fixed;
+  top:0;
+  left:0;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width:100%;
+  height:100%;
 }
-
-.App-link {
-  color: #61dafb;
+.modalisa{
+  color:aliceblue;
+  background-color: black;
+  width:50%;
+  padding:30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addmodal{
+  background-color: rgba(255, 0, 0, 0.678);
+  position: fixed;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
 }
