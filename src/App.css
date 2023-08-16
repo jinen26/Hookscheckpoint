@@ -64,3 +64,24 @@ height:400px;
   width:100%;
   height:100%;
 }
+.Biglogin{
+  background-image: url(https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg);
+  height:100%;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.smalllogin{
+  color:black;
+  background-color: white;
+  width:50%;
+  padding:30px;
+  border-radius: 5px;
+}
+.smalllogin button{
+  background-color: crimson;
+}
